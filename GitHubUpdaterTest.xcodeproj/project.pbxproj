@@ -49,8 +49,8 @@
 		05E2A6053007A7B60038C2A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = Contents/XPCServices;
-			dstSubfolderSpec = 1;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
 			files = (
 				05E2A6063007A7BB0038C2A2 /* Updater.xpc in CopyFiles */,
 			);
