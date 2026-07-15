@@ -27,10 +27,6 @@ import SwiftUI
 @main
 struct GitHubUpdaterTestApp: App
 {
-    /// Bridges an AppKit application delegate into the SwiftUI lifecycle, so a
-    /// background update check can run once at launch.
-    @NSApplicationDelegateAdaptor( AppDelegate.self ) private var appDelegate
-
     var body: some Scene
     {
         WindowGroup
